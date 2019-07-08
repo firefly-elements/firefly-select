@@ -15,8 +15,9 @@ import './firebase_components/firebase-query.js';
 import './firebase_components/firebase-auth.js';
 import './firebase_components/firebase-database-behavior.js'
 
-import './aspen_components/asp-button.js';
-import {AspFireListMixin} from './aspen_components/asp-fire-list-mixin'
+import './aspen_components/aspen-list-icons.js'
+import './aspen_components/aspen-button.js';
+import {AspFireListMixin} from './aspen_components/firefly-list-mixin'
 
 
 /**
@@ -41,7 +42,7 @@ class AspFireList extends AspFireListMixin(PolymerElement) {
             .component{
                 @apply --layout-horizontal;
             }
-            asp-button{
+            aspen-button{
                margin-top: 35px;
                margin-left: 4px;
                 height: 24px;
@@ -62,7 +63,7 @@ class AspFireList extends AspFireListMixin(PolymerElement) {
             </vaadin-dropdown-menu>
         
             <template is="dom-if" if="{{editable}}">
-                <asp-button icon="list:add-circle" on-tap="_openAddDialog"></asp-button>
+                <aspen-button icon="list:add-circle" on-tap="_openAddDialog"></aspen-button>
             </template>
            
         </div>

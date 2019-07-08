@@ -1,5 +1,5 @@
-import { FlattenedNodesObserver } from '../node_modules/@polymer/polymer/lib/utils/flattened-nodes-observer.js';
-import { matchesSelector } from '../node_modules/@polymer/polymer/lib/legacy/polymer.dom.js';
+import { FlattenedNodesObserver } from '@polymer/polymer/lib/utils/flattened-nodes-observer';
+import { matchesSelector } from '@polymer/polymer/lib/legacy/polymer.dom';
 
 /**
  * This mixin provides all properties and methods for fire-lists.
