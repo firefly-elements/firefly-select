@@ -11,13 +11,14 @@ import './node_modules/@vaadin/vaadin-list-box/src/vaadin-list-box.js';
 import './node_modules/@polymer/neon-animation/neon-animation.js';
 import './node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
 
-import './firebase_components/firebase-query.js';
-import './firebase_components/firebase-auth.js';
-import './firebase_components/firebase-database-behavior.js'
+import './polymerfire/firebase-query.js';
+import './polymerfire/firebase-auth.js';
+import './polymerfire/firebase-database-behavior.js'
 
-import './aspen_components/aspen-list-icons.js'
-import './aspen_components/aspen-button.js';
-import {AspFireListMixin} from './aspen_components/firefly-list-mixin'
+import './aspen-list-icons.js'
+
+import '@aspen-elements/aspen-button'
+import {AspFireListMixin} from './firefly-list-mixin'
 
 
 /**
