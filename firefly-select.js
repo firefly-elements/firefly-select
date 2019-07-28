@@ -23,11 +23,11 @@ import {AspFireListMixin} from './firefly-list-mixin';
 
 
 /**
- * `firefly-list` This component is designed to display a list of values where the list itself is editable,
+ * `firefly-select` This component is designed to display a list of values where the list itself is editable,
  * and has a firebase backing list. For example, this can be used to display a list of therapeutic areas, and
  * let the user add new therapeutic areas without having to switch pages.
  * 
- * <firefly-list label="Whatevers" app-name="whatever" path="/whatever" order-by-child="something" selected="{{selected}}">
+ * <firefly-select label="Whatevers" app-name="whatever" path="/whatever" order-by-child="something" selected="{{selected}}">
  *
  * @summary ShortDescription.
  * @customElement
@@ -78,7 +78,7 @@ class AspFireList extends AspFireListMixin(PolymerElement) {
    * String providing the tag name to register the element under.
    */
   static get is() {
-      return 'firefly-list';
+      return 'firefly-select';
   }
 
 
