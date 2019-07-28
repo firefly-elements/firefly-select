@@ -13,6 +13,7 @@
     "@aspen-elements/aspen-button": "^0.5.1",
     "@aspen-elements/aspen-list-icons": "^0.5.0",
     "@firefly-elements/firefly-list-mixin": "^0.5.0",
+    "@firefly-elements/polymerfire": "^0.5.0",
     "@polymer/app-storage": "^3.0.2",
     "@polymer/polymer": "^3.0.0",
     "@vaadin/vaadin-dropdown-menu": "^1.2.0",

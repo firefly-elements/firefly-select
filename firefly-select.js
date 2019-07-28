@@ -11,9 +11,9 @@ import './node_modules/@vaadin/vaadin-list-box/src/vaadin-list-box.js';
 import './node_modules/@polymer/neon-animation/neon-animation.js';
 import './node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
 
-import './polymerfire/firebase-query.js';
-import './polymerfire/firebase-auth.js';
-import './polymerfire/firebase-database-behavior.js';
+import '@firefly-elements/polymerfire/firebase-query.js';
+import '@firefly-elements/polymerfire/firebase-auth.js';
+import '@firefly-elements/polymerfire/firebase-database-behavior.js';
 
 // import './aspen-list-icons.js'
 import '@aspen-elements/aspen-list-icons';
