@@ -19,7 +19,7 @@ import './polymerfire/firebase-database-behavior.js';
 import '@aspen-elements/aspen-list-icons';
 
 import '@aspen-elements/aspen-button';
-import {AspFireListMixin} from './firefly-list-mixin';
+import {FireflyListMixin} from '@firefly-elements/firefly-list-mixin';
 
 
 /**
@@ -34,7 +34,7 @@ import {AspFireListMixin} from './firefly-list-mixin';
  * @polymer
  * @extends {Polymer.Element}
  */
-class AspFireList extends AspFireListMixin(PolymerElement) {
+class AspFireList extends FireflyListMixin(PolymerElement) {
   static get template() {
     return html`
         <style>
