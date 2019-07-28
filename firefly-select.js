@@ -13,12 +13,13 @@ import './node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
 
 import './polymerfire/firebase-query.js';
 import './polymerfire/firebase-auth.js';
-import './polymerfire/firebase-database-behavior.js'
+import './polymerfire/firebase-database-behavior.js';
 
-import './aspen-list-icons.js'
+// import './aspen-list-icons.js'
+import '@aspen-elements/aspen-list-icons';
 
-import '@aspen-elements/aspen-button'
-import {AspFireListMixin} from './firefly-list-mixin'
+import '@aspen-elements/aspen-button';
+import {AspFireListMixin} from './firefly-list-mixin';
 
 
 /**
