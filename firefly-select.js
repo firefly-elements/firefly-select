@@ -1,15 +1,15 @@
-import { PolymerElement} from './node_modules/@polymer/polymer/polymer-element.js';
+import { PolymerElement} from '@polymer/polymer/polymer-element.js';
 import { html } from '@polymer/polymer/lib/utils/html-tag.js';
 import { afterNextRender } from '@polymer/polymer/lib/utils/render-status.js';
 
-import './node_modules/@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import './node_modules/@polymer/paper-listbox/paper-listbox.js';
-import './node_modules/@polymer/paper-item/paper-item.js';
-import './node_modules/@vaadin/vaadin-dropdown-menu/src/vaadin-dropdown-menu.js';
-import './node_modules/@vaadin/vaadin-item/src/vaadin-item.js';
-import './node_modules/@vaadin/vaadin-list-box/src/vaadin-list-box.js';
-import './node_modules/@polymer/neon-animation/neon-animation.js';
-import './node_modules/@polymer/iron-flex-layout/iron-flex-layout.js';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
+import '@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-item/paper-item.js';
+import '@vaadin/vaadin-dropdown-menu/src/vaadin-dropdown-menu.js';
+import '@vaadin/vaadin-item/src/vaadin-item.js';
+import '@vaadin/vaadin-list-box/src/vaadin-list-box.js';
+import '@polymer/neon-animation/neon-animation.js';
+import '@polymer/iron-flex-layout/iron-flex-layout.js';
 
 import '@firefly-elements/polymerfire/firebase-query.js';
 import '@firefly-elements/polymerfire/firebase-auth.js';
