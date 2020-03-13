@@ -53,6 +53,7 @@ class FireflySelect extends FireflyListMixin(PolymerElement) {
         app-name="[[appName]]"
         path="[[path]]"
         data="{{model}}"
+        order-by="[[orderBy]]"
       ></fs-query>
 
       <div class="component">
